@@ -9,8 +9,8 @@
     "node": "14.17.0"
   },
   "scripts": {
-    "build": "cd client && npm install && npm run build",
     "prebuild": "rimraf dist",
+    "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "start": "node /dist/main.js",
     "start:dev": "nest start --watch",
